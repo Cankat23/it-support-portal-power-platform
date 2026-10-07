@@ -167,6 +167,15 @@ Potential future improvements include:
 - Attachments
 - Additional reporting and analytics
 
+## Project Files
+
+The repository includes the main Power Platform artifacts used in the project:
+
+- [`IT-Support-Portal.msapp`](power-platform/IT-Support-Portal.msapp) — exported Microsoft Power Apps Canvas application
+- [`ITSupportPortal_1_0_0_1.zip`](power-platform/ITSupportPortal_1_0_0_1.zip) — unmanaged Power Platform solution containing the Canvas App, Dataverse components, Power Automate flows, and connection references
+
+The unmanaged solution is provided for development, source control, and importing the project into another compatible Microsoft Power Platform environment.
+
 ## Project Status
 
 The core application workflow is complete and functional.
